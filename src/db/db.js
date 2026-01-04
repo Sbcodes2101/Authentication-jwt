@@ -5,7 +5,9 @@ function connectDB(){
     .then(()=>{
         console.log("connected to DB")
     })
-    .catch(err=>{
+    .catch( err =>{
         console.log(err)
     })
 }
+
+module.exports = connectDB
